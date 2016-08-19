@@ -14,7 +14,7 @@ ESP8266Server server(80);       //port number
 #define PIN 6                   //Output pin connected to RainbowStrip and EZMP3 Shield
 
 const char ssid[] = "CytronESPShield";      //  your network SSID (name)
-const char pass[] = "12345678";             //your network password
+const char pass[] = "..........";             //your network password
 int keyIndex = 0;                      
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(60, PIN, NEO_GRB + NEO_KHZ800);
